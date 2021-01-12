@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using fuzzyMEME.Models;
 
 namespace fuzzyMEME.Data
 {
@@ -12,5 +13,6 @@ namespace fuzzyMEME.Data
             : base(options)
         {
         }
+        public DbSet<fuzzyMEME.Models.MemeModel> MemeModel { get; set; }
     }
 }
