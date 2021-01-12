@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using fuzzyMEME.Data;
 using fuzzyMEME.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace fuzzyMEME.Controllers
 {
@@ -55,6 +56,7 @@ namespace fuzzyMEME.Controllers
             return View(memeModel);
         }
 
+        [Authorize]
         // GET: MemeModels/Create
         public IActionResult Create()
         {
