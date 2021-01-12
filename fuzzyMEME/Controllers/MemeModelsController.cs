@@ -25,6 +25,18 @@ namespace fuzzyMEME.Controllers
             return View(await _context.MemeModel.ToListAsync());
         }
 
+        // GET: MemeModels/ShowSearchForm
+        public IActionResult ShowSearchForm()
+        {
+            return View();
+        }
+
+        // GET: MemeModels/ShowSearchResults
+        public IActionResult ShowSearchResults()
+        {
+            return View();
+        }
+
         // GET: MemeModels/Details/5
         public async Task<IActionResult> Details(int? id)
         {
