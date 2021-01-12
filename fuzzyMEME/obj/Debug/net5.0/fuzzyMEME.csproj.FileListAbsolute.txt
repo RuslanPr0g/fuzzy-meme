@@ -182,3 +182,4 @@ C:\Users\theru\Desktop\fuzzyMEMEproject\fuzzyMEME\obj\Debug\net5.0\Razor\Views\M
 C:\Users\theru\Desktop\fuzzyMEMEproject\fuzzyMEME\obj\Debug\net5.0\Razor\Views\MemeModels\Details.cshtml.g.cs
 C:\Users\theru\Desktop\fuzzyMEMEproject\fuzzyMEME\obj\Debug\net5.0\Razor\Views\MemeModels\Edit.cshtml.g.cs
 C:\Users\theru\Desktop\fuzzyMEMEproject\fuzzyMEME\obj\Debug\net5.0\Razor\Views\MemeModels\Index.cshtml.g.cs
+C:\Users\theru\Desktop\fuzzyMEMEproject\fuzzyMEME\obj\Debug\net5.0\Razor\Views\MemeModels\ShowSearchForm.cshtml.g.cs

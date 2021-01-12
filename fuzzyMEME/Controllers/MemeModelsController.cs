@@ -31,10 +31,10 @@ namespace fuzzyMEME.Controllers
             return View();
         }
 
-        // GET: MemeModels/ShowSearchResults
-        public IActionResult ShowSearchResults()
+        // POST: MemeModels/ShowSearchResults
+        public async Task<IActionResult> ShowSearchResults(String SearchMeme)
         {
-            return View();
+            return View("Index", await _context.MemeModel.Where(meme => meme.MemeBase.Contains(SearchMeme) || meme.MemeExtra.Contains(SearchMeme)).ToListAsync());
         }
 
         // GET: MemeModels/Details/5
