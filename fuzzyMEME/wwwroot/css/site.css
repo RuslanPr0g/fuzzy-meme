@@ -1,10 +1,25 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿:root {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.inverted {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+*::selection {
+    background: #ff0000;
+    color: #fff;
+}
+
+.nav-img:hover {
+    opacity: 0;
+    transition: 100ms ease;
+}
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
 }
 
 /* Provide sufficient contrast against white background */
